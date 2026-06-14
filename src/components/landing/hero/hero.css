@@ -1,0 +1,68 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+.hero-toggle {
+    display: inline-flex;
+    background: #f2f2f2;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.hero-toggle button {
+    border: none;
+    background: transparent;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.hero-toggle button.active {
+    background: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 30px 0;
+}
+
+.hero h1 span {
+    color: #EA4C89;
+}
+
+.hero-points p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.cta-btn {
+    margin-top: 30px;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 40px;
+    background: #060626;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
