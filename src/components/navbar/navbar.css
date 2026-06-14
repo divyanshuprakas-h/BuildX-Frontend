@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 3%;
+    background: #fff; 
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo {
+    font-size: 2em;
+    color: black;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.features {
+    margin-left: 50px;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
